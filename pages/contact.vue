@@ -2,32 +2,26 @@
   <div class="wrapper">
     <div class="container">
       <div>
-        <Logo />
         <h1 class="title">
-          Jeff DeWitt
+          Contact
         </h1>
-        <div class="links">
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="button--green"
-          >
-            Documentation
-          </a>
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="button--grey"
-          >
-            GitHub
-          </a>
-        </div>
       </div>
       <button class="button is-primary">Hello</button>
     </div>
-    
+    <footer class="footer">
+      <div class="container">
+        <nav class="level">
+          <div class="level-item has-text-centered">
+            <p class="heading">
+              <nuxt-link to="/"> Home </nuxt-link>
+            </p>
+          </div>
+          <div class="level-item has-text-centered">
+            <nuxt-link to="/portfolio"> Portfolio </nuxt-link>
+          </div>
+        </nav>
+      </div>
+    </footer>
   </div>
 </template>
 
