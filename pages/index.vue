@@ -24,6 +24,7 @@
         </a>
       </div>
     </div>
+    <button class="button is-primary">Hello</button>
   </div>
 </template>
 

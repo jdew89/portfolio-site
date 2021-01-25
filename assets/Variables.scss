@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+// Set your brand colors
+$grey-darker: hsl(0,0%,70%);
+$grey-dark: hsl(0,0%,80%);
+$grey: hsl(0,0%,86%);
+$grey-light: hsl(0,0%,89%);
+$grey-lighter: hsl(0,0%,92%);
+$grey-lightest: hsl(0,0%,94%);
+$grey-darker: hsl(0,0%,21%);
+$grey-darker: hsl(0,0%,21%);
+
+
+
+// Update Bulma's global variables
+$family-sans-serif: 'Inconsolata', monospace, sans-serif;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$footer-background-color: #000000;
+$scheme-main: black;
+$scheme-main-bis: black;
+$scheme-main-ter: black;
+$scheme-invert: white;
+$scheme-invert-bis: white;
+$scheme-invert-ter: white;
+$text: white;
+$text-light: white;
+$background: black;
+$text-strong: white;
+$border: white;
+$border-hover: #aaaaaa;
+
+
+// Import only what you need from Bulma
+@import '../node_modules/bulma/bulma.sass';
+/*
+@import "../../node_modules/bulma/sass/utilities/_all.sass";
+@import "../../node_modules/bulma/sass/elements/button.sass";
+@import "../../node_modules/bulma/sass/base/_all.sass";
+@import "../../node_modules/bulma/sass/elements/container.sass";
+@import "../../node_modules/bulma/sass/elements/title.sass";
+@import "../../node_modules/bulma/sass/form/_all.sass";
+@import "../../node_modules/bulma/sass/components/navbar.sass";
+@import "../../node_modules/bulma/sass/layout/hero.sass";
+@import "../../node_modules/bulma/sass/layout/section.sass";
+*/
+
+
