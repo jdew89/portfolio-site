@@ -59,7 +59,12 @@
           <div class="columns mt-2">
             <div class="column">
               <a href="https://www.easyearnest.com/">
-                <img class="image" src="~/assets/imgs/EE_Dashboard.png" alt="Easy Earnest Logo">
+                <div class="img-container">
+                  <img class="image" src="~/assets/imgs/EE_Dashboard.png" alt="Easy Earnest">
+                  <div class="overlay" :class="{'show-overlay':showOverlay}">
+                    <img class="image" src="~/assets/imgs/EE_Form_crop.png" alt="Easy Earnest">
+                  </div>
+                </div>
               </a>
             </div>
             <div class="column">
@@ -86,10 +91,23 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data(){
+    return {
+      showOverlay: false,
+    };
+  },
+  mounted(){
+    setInterval(()=>{
+      this.showOverlay = !this.showOverlay;
+    },8000);
+  }
+}
 </script>
 
 <style lang="scss">
+
+
 ul.no-style{
   list-style: none;
 
@@ -101,5 +119,26 @@ li.block-style{
   color: white;
   border: 1px solid white;
   border-left: 5px solid white;
+}
+
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  //height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1.0s ease;
+}
+
+.img-container{
+  position: relative;
+}
+
+.show-overlay{
+  opacity: 1;
 }
 </style>
