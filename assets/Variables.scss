@@ -5,16 +5,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 // Set your brand colors
-$grey-darker: hsl(0,0%,70%);
-$grey-dark: hsl(0,0%,80%);
-$grey: hsl(0,0%,86%);
-$grey-light: hsl(0,0%,89%);
-$grey-lighter: hsl(0,0%,92%);
-$grey-lightest: hsl(0,0%,94%);
-$grey-darker: hsl(0,0%,21%);
-$grey-darker: hsl(0,0%,21%);
+//hsl(235, 22%, 20%); beau blue
+//hsl(160, 50%, 76%); Middle Blue Green
+//hsl(350, 80%, 80%); mauveious (pinkish)
+//hsl(235, 22%, 20%); black
+
+$blue: hsl(205, 46%, 84%); //beau blue
+$green: hsl(160, 50%, 76%); //Middle Blue
+$pink: hsl(350, 80%, 80%); //mauveious (pinkish)
+$black: hsl(235, 22%, 20%); //black
+//$grey: hsl(235, 22%, 20%); //black
+
+$primary: $green;
+$link: $blue;
+$info: $pink;
+$success: $green;
+//$warning: $yellow;
+//$danger: $red;
+//$dark: $grey-darker;
+$white: hsl(205, 46%, 90%);
+$whiter: hsl(205, 46%, 96%);
 
 
+$text: $white;
+$text-light: $whiter;
+$text-strong: $whiter;
 
 // Update Bulma's global variables
 $family-sans-serif: 'Inconsolata', monospace, sans-serif;
@@ -22,17 +37,15 @@ $widescreen-enabled: false;
 $fullhd-enabled: false;
 
 // Update some of Bulma's component variables
-$footer-background-color: #000000;
-$scheme-main: black;
-$scheme-main-bis: black;
-$scheme-main-ter: black;
-$scheme-invert: white;
-$scheme-invert-bis: white;
-$scheme-invert-ter: white;
-$text: white;
-$text-light: white;
-$background: black;
-$text-strong: white;
+//$footer-background-color: #813232;
+$background: $black;
+$scheme-main: $black;
+$scheme-main-bis: $black;
+$scheme-main-ter: $black;
+$scheme-invert: $white;
+$scheme-invert-bis: $white;
+$scheme-invert-ter: $white;
+
 $border: white;
 $border-hover: #aaaaaa;
 

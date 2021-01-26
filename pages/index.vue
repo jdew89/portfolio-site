@@ -1,32 +1,36 @@
 <template>
-  <div class="wrapper">
-    <div class="container">
-      <div>
+  <div class="container">
+    <section class="hero">
+      <div class="hero-body">
         <Logo />
-        <h1 class="title">
+        <h1 class="title is-1">
           Jeff DeWitt
         </h1>
-        <div class="links">
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="button--green"
-          >
-            Documentation
-          </a>
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="button--grey"
-          >
-            GitHub
-          </a>
-        </div>
+        <h2 class="subtitle is-4">
+          Software engineer and consultant.
+        </h2>
+
       </div>
-      <button class="button is-primary">Hello</button>
-    </div>
+    </section>
+      <a
+        href="https://nuxtjs.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="button is-primary is-outlined"
+      >
+        Documentation
+      </a>
+      <a
+        href="https://github.com/nuxt/nuxt.js"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="button is-info is-outlined"
+      >
+        GitHub
+      </a>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ducimus, sed vel itaque magnam molestiae, incidunt dicta nisi tempore pariatur est laborum et exercitationem omnis. Placeat, alias. Cupiditate, ipsum accusamus.
+      </p>
     
   </div>
 </template>
@@ -36,33 +40,5 @@ export default {}
 </script>
 
 <style lang="scss">
-body{
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
-	overflow-x: hidden;
-}
 
-//pushed footer to bottom
-.wrapper{
-	flex: 1
-}
-
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
 </style>
