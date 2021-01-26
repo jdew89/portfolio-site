@@ -1,5 +1,6 @@
 <template>
   <div class="wrapper">
+    <Navbar />
     <div class="push-footer-bottom">
       <Nuxt />
     </div>

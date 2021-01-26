@@ -17,12 +17,12 @@
           </div>
           <div class="level-right">
             <div class="level-item">
-              <a href="https://github.com/jdew89" class="button is-rounded is-outlined is-link" target="_blank">
+              <a href="https://github.com/jdew89" class="button is-rounded is-outlined is-link is-small" target="_blank">
                 <fa :icon="['fab', 'github']" class="icon is-large"/>
               </a>
             </div>
             <div class="level-item">
-              <a href="https://github.com/jdew89" class="button is-rounded is-outlined is-link" target="_blank">
+              <a href="https://www.linkedin.com/in/jeffrey-dewitt-902b0560/" class="button is-rounded is-outlined is-link is-small" target="_blank">
                 <fa :icon="['fab', 'linkedin']" class="icon is-large"/>
               </a>
             </div>
