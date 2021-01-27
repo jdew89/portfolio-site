@@ -100,16 +100,53 @@
                   Easy Earnest hopes to modernize the Real Estate industry by providing a platform for customers to use that is Fast, Secure and Easy! I had the pleasure of designing, building and maintaining
                   the dashboard and earnest money deposit forms.
                 </p>
-                <TechIcon :fasIcon="['fab', 'node-js']" tooltipText="NodeJS" />
-                <TechIcon :fasIcon="['fab', 'vuejs']" tooltipText="VueJS" />
-                <TechIcon :fasIcon="['fab', 'html5']" tooltipText="HTML5" />
-                <TechIcon :fasIcon="['fab', 'sass']" tooltipText="SASS" />
-                <TechIcon :fasIcon="['fab', 'aws']" tooltipText="AWS" />
-
+                <TechIcon :noIcon="false" :fasIcon="['fab', 'node-js']" tooltipText="NodeJS" />
+                <TechIcon :noIcon="false" :fasIcon="['fab', 'vuejs']" tooltipText="VueJS" />
+                <TechIcon :noIcon="false" :fasIcon="['fab', 'html5']" tooltipText="HTML5" />
+                <TechIcon :noIcon="false" :fasIcon="['fab', 'sass']" tooltipText="SASS" />
+                <TechIcon :noIcon="false" :fasIcon="['fab', 'aws']" tooltipText="AWS" />
               </div>
             </div>
           </div>
-
+        </section>
+      </article>
+    </section>
+    <section class="section">
+      <article>
+        <header>
+          <h1 class="title is-3"> Other Projects </h1>
+        </header>
+        <section class="section">
+          <header>
+            <h3 class="title is-5">
+              Theme for a Title Company
+            </h3>
+          </header>
+          <div class="columns mt-2">
+            <div class="column">
+              <a href="">
+                <div class="img-container">
+                  <img class="image" src="~/assets/imgs/Title_Website_Services.png" alt="Title Website">
+                  <div class="overlay" :class="{'show-overlay':showOverlay}">
+                    <img class="image" src="~/assets/imgs/Title_Website.png" alt="Title Website">
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="column">
+              <div class="content">
+                <p>
+                  Easy Earnest is an electronic earnest money payment platform for Real Estate transactions. This product solves the headaches involved with accepting paper checks for earnest money deposits.
+                  Easy Earnest hopes to modernize the Real Estate industry by providing a platform for customers to use that is Fast, Secure and Easy! I had the pleasure of designing, building and maintaining
+                  the dashboard and earnest money deposit forms.
+                </p>
+                <TechIcon :noIcon="false" :fasIcon="['fab', 'node-js']" tooltipText="NodeJS" />
+                <TechIcon :noIcon="false" :fasIcon="['fab', 'html5']" tooltipText="HTML5" />
+                <TechIcon :noIcon="false" :fasIcon="['fab', 'sass']" tooltipText="SASS" />
+                <TechIcon :noIcon="true" :fasIcon="['fab', 'sass']" tooltipText="PUGJS" />
+              </div>
+            </div>
+          </div>
         </section>
       </article>
     </section>
