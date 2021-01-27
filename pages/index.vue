@@ -199,6 +199,7 @@ li.block-style{
 
 .img-container{
   position: relative;
+  overflow-y: hidden;
 }
 
 .show-overlay{
