@@ -1,6 +1,7 @@
 <template>
     <div class="tooltip">
-        <fa :icon="fasIcon" class="icon is-medium tooltip" />
+        <fa :icon="fasIcon" class="icon is-medium" v-if="!noIcon" />
+        <span v-if="noIcon">{{tooltipText}} </span>
         <span class="tooltiptext">
             {{tooltipText}}
         </span>
@@ -12,11 +13,13 @@ export default {
     props: {
         fasIcon: Array,
         tooltipText: String,
+        noIcon: Boolean,
     }
 }
 </script>
 
 <style lang="scss">
+
 .tooltip {
   position: relative;
   display: inline-block;
