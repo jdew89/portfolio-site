@@ -45,6 +45,32 @@
     <section class="section">
       <article>
         <header>
+          <h1 class="title is-3">
+            About
+          </h1>
+        </header>
+        <div class="content is-medium mt-3">
+          <p>
+            My name is Jeff DeWitt and I have been programming for over 12 years. I first learned to program in High School and ended up graduating college with a Bachelors 
+            in Computer Science. Since graduating, I took some odd jobs and landed in the IT Support/Administration field. I have been in this field since 2016. Throughout the years, my
+            desire to continue programming compelled me to learn new programming techniques and languages on the side. 
+          </p>
+          <p>
+            Through my time at Cutler Real Estate, I have had the opportunity to code several scripts in Python and NodeJS to help migrate data between software vendors. 
+            My latest adventure involves co-founding a new company called Easy Earnest. I was tasked with building a web platform to process electronic earnest money payments. 
+            This products help revolutionize the last piece of Real Estate transactions that has not caught up to modern times, writing paper 
+            checks to deposit earnest money. This platform was build on NodeJS, VueJS, PostgreSQL, and AWS.
+          </p>
+          <p>
+            The top technologies that I work in are JavaScript, CSS, HTML, NodeJS, and VueJS. 
+            I am also comfortable working in any databases such as MongoDB and PostgreSQL.
+          </p>
+        </div>
+      </article>
+    </section>
+    <section class="section">
+      <article>
+        <header>
           <h1 class="title is-3"> Experience </h1>
         </header>
         <section class="section">
