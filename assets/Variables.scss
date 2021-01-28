@@ -11,10 +11,14 @@
 //hsl(235, 22%, 20%); black
 
 $blue: hsl(205, 46%, 84%); //beau blue
+$blue-darker: hsl(205, 46%, 70%);
 $green: hsl(160, 50%, 76%); //Middle Blue
 $pink: hsl(350, 80%, 80%); //mauveious (pinkish)
 $black: hsl(235, 22%, 20%); //black
 //$grey: hsl(235, 22%, 20%); //black
+$white: hsl(205, 46%, 90%);
+$whiter: hsl(205, 46%, 96%);
+
 
 $primary: $blue;
 //$link: $blue;
@@ -23,10 +27,13 @@ $success: $green;
 //$warning: $yellow;
 //$danger: $red;
 //$dark: $grey-darker;
-$white: hsl(205, 46%, 90%);
-$whiter: hsl(205, 46%, 96%);
 
-
+$link-hover: $blue-darker;
+$link-hover-border: $blue-darker;
+$link-focus: $blue-darker;
+$link-focus-border: $blue-darker;
+$link-active: $blue-darker;
+$link-active-border: $blue-darker;
 $text: $white;
 $text-light: $whiter;
 $text-strong: $whiter;
