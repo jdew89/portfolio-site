@@ -7,13 +7,13 @@
               <NuxtLink to="/" class="button is-primary is-outlined"> Home </NuxtLink>
             </div>
             <div class="level-item has-text-centered">
-              <NuxtLink to="#portfolio" class="button is-link is-outlined"> 
-                  Portfolio
+              <NuxtLink to="#about" class="button is-link is-outlined"> 
+                  About
               </NuxtLink>
             </div>
             <div class="level-item has-text-centered">
-              <NuxtLink to="#about" class="button is-link is-outlined"> 
-                  About
+              <NuxtLink to="#portfolio" class="button is-link is-outlined"> 
+                  Portfolio
               </NuxtLink>
             </div>
             <div class="level-right">

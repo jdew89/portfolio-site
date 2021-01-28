@@ -21,13 +21,13 @@
                     </NuxtLink>
                 </div>
                 <div class="navbar-item">
-                    <NuxtLink to="#portfolio" class="button is-primary is-outlined"> 
-                        Portfolio
+                    <NuxtLink to="#about" class="button is-primary is-outlined"> 
+                        About
                     </NuxtLink>
                 </div>
                 <div class="navbar-item">
-                    <NuxtLink to="#about" class="button is-primary is-outlined"> 
-                        About
+                    <NuxtLink to="#portfolio" class="button is-primary is-outlined"> 
+                        Portfolio
                     </NuxtLink>
                 </div>
             </div>
