@@ -7,13 +7,13 @@
                 </button>
                 
             </div>
-            <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false" data-target="navbarTop" @click="mobileMenuActive = !mobileMenuActive">
+            <a class="navbar-burger" :class="{'burger-open': mobileMenuActive}" role="button" aria-label="menu" aria-expanded="false" data-target="navbarTop" @click="toggleNavbarMenu">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
             </a>
         </div>
-        <div class="navbar-menu" id="navbarTop" :class="{'is-active':mobileMenuActive}">
+        <div class="navbar-menu" id="navbarTop" :class="{'is-active':mobileMenuActive,'is-closing': mobileMenuClosing}">
             <div class="navbar-start">
                 <div class="navbar-item">
                     <NuxtLink to="/" class="button is-primary is-outlined"> 
@@ -58,10 +58,25 @@ export default {
     data(){
         return {
             mobileMenuActive: false,
+            mobileMenuClosing: false,
             rotateSnowflake: true,
         }
     },
     methods: {
+        toggleNavbarMenu(){
+            //if menu active, set closing animation class
+            //wait annimation time and then remove those classes
+            if(this.mobileMenuActive){
+                this.mobileMenuClosing = true;
+                window.setTimeout(()=>{
+                    this.mobileMenuClosing = false;
+                    this.mobileMenuActive = false;
+                },500)
+            }
+            else{
+                this.mobileMenuActive = !this.mobileMenuActive;
+            }
+        },
         toggleSnow(){
             this.$emit('snowflake-toggle');
             this.rotateSnowflake = !this.rotateSnowflake;
@@ -71,7 +86,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .rotate-button-snowflake{
     animation: rotation 7s infinite linear;
 }
@@ -84,4 +99,64 @@ export default {
         transform: rotate(359deg);
     }
 }
+
+//change burger values
+.navbar-burger span{
+    height: 3px;
+    width: 20px;
+}
+
+.navbar-burger span:nth-child(1){
+    top: calc(50% - 8px);
+}
+.navbar-burger span:nth-child(2){
+    top: calc(50% - 1px);
+}
+.navbar-burger span:nth-child(3){
+    top: calc(50% + 6px);
+}
+
+//when avtive
+.navbar-burger.burger-open span:nth-child(1){
+    top: calc(50% - 8px);
+    transform: rotate(45deg)
+}
+.navbar-burger.burger-open span:nth-child(2){
+    visibility: hidden;
+}
+.navbar-burger.burger-open span:nth-child(3){
+    top: calc(50% + 6px);
+    transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 1023px){
+    .is-active{
+        animation: open-menu 0.5s linear forwards;
+    }
+    .is-closing{
+        
+        animation: close-menu 0.5s linear forwards;
+    }
+
+}
+
+@keyframes open-menu {
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+@keyframes close-menu {
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(100%);
+    }
+}
+
+
+
 </style>
