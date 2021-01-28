@@ -140,7 +140,7 @@
               <div class="content">
                 <p>
                   This was made as a mock up for a new site. It is currently not deployed. It was built using NodeJS, ExpressJS, PugJS, and SASS.
-                  It can be deployed at any time or converted to a theme for use in other CMS like Wordpress. It is also built using the Bulma framework.
+                  It can be deployed at any time or converted to a theme for use in a CMS like Wordpress or Ghost. It is also built using the Bulma CSS framework.
                 </p>
                 <TechIcon :noIcon="false" :fasIcon="['fab', 'node-js']" tooltipText="NodeJS" />
                 <TechIcon :noIcon="false" :fasIcon="['fab', 'html5']" tooltipText="HTML5" />
