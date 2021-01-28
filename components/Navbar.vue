@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <div class="navbar-item">
                 <NuxtLink to="/" class="is-primary" >
@@ -20,8 +20,13 @@
                     </NuxtLink>
                 </div>
                 <div class="navbar-item">
-                    <NuxtLink to="/portfolio" class="button is-primary is-outlined"> 
+                    <NuxtLink to="#portfolio" class="button is-primary is-outlined"> 
                         Portfolio
+                    </NuxtLink>
+                </div>
+                <div class="navbar-item">
+                    <NuxtLink to="#about" class="button is-primary is-outlined"> 
+                        About
                     </NuxtLink>
                 </div>
             </div>
