@@ -11,7 +11,7 @@
 
       </div>
     </section>
-    <section class="section">
+    <section class="section has-background-black">
       <article>
         <header>
           <h1 class="title is-3">
@@ -43,8 +43,8 @@
       </article>
     </section>
     <section class="section">
-      <article>
-        <header>
+      <article class="has-background-black">
+        <header class="">
           <a class="anchor" id="about"></a>
           <h1 class="title is-3">
             About
@@ -75,7 +75,7 @@
       </article>
     </section>
     <section class="section">
-      <article>
+      <article class="has-background-black">
           <header>
             <a class="anchor" id="portfolio"></a>
             <h1 class="title is-3"> Portfolio </h1>
