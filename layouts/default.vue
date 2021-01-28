@@ -1,5 +1,6 @@
 <template>
   <div class="wrapper">
+    <Snowflakes />
     <Navbar />
     <div class="push-footer-bottom">
       <Nuxt />
