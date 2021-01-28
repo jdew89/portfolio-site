@@ -2,17 +2,22 @@
   <div class="container">
     <section class="hero">
       <div class="hero-body">
-        <h1 class="title is-1">
-          Jeff DeWitt
-        </h1>
-        <h2 class="subtitle is-4">
-          Software engineer and consultant.
-        </h2>
+        <div class="columns">
+          <div class="column is-narrow has-background-black">
+            <h1 class="title is-1">
+              Jeff DeWitt
+            </h1>
+            <h2 class="subtitle is-4">
+              Software engineer and consultant.
+            </h2>
 
+          </div>
+
+        </div>
       </div>
     </section>
-    <section class="section has-background-black">
-      <article>
+    <section class="section">
+      <article class="has-background-black">
         <header>
           <h1 class="title is-3">
             I design and build..
