@@ -2,8 +2,8 @@
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <div class="navbar-item">
-                <button class="button" @click="$emit('snowflake-toggle')">
-                    <fa class="icon" :icon="['fas','snowflake']"></fa>
+                <button class="button is-primary is-outlined" @click="toggleSnow">
+                    <fa class="icon" :class="{'rotate-button-snowflake': rotateSnowflake} " :icon="['fas','snowflake']"></fa>
                 </button>
                 
             </div>
@@ -58,11 +58,30 @@ export default {
     data(){
         return {
             mobileMenuActive: false,
+            rotateSnowflake: true,
+        }
+    },
+    methods: {
+        toggleSnow(){
+            this.$emit('snowflake-toggle');
+            this.rotateSnowflake = !this.rotateSnowflake;
         }
     }
+    
 }
 </script>
 
 <style>
+.rotate-button-snowflake{
+    animation: rotation 7s infinite linear;
+}
 
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
 </style>
