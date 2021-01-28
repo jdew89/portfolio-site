@@ -2,9 +2,10 @@
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <div class="navbar-item">
-                <NuxtLink to="/" class="is-primary" >
-                        <fa :icon="['fab', 'centercode']" class="icon is-large"/>
-                </NuxtLink>
+                <button class="button" @click="$emit('snowflake-toggle')">
+                    <fa class="icon" :icon="['fas','snowflake']"></fa>
+                </button>
+                
             </div>
             <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false" data-target="navbarTop" @click="mobileMenuActive = !mobileMenuActive">
                 <span aria-hidden="true"></span>
@@ -51,6 +52,9 @@
 
 <script>
 export default {
+    model: {
+        event: 'snowflake-toggle'
+    },
     data(){
         return {
             mobileMenuActive: false,

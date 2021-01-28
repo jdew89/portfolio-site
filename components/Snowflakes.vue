@@ -1,22 +1,22 @@
 <template>
     <div class="snowflakes" aria-hidden="true">
         <div class="snowflake">
-        ❅
+            ❅
         </div>
         <div class="snowflake">
-        ❆
+            ❆
         </div>
         <div class="snowflake">
-        ❅
+            ❅
         </div>
         <div class="snowflake">
-        ❆
+            ❆
         </div>
         <div class="snowflake">
-        ❅
+            ❅
         </div>
         <div class="snowflake">
-        ❆
+            ❆
         </div>
         <div class="snowflake">
             ❅
@@ -39,7 +39,14 @@
     </div>
 </template>
 
+<script>
+export default {
+    
+}
+</script>
+
 <style lang="scss">
+//Can customize this part
 .snowflake {
   color: #fff;
   font-size: 1em;
