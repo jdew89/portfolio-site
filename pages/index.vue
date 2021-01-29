@@ -98,9 +98,9 @@
             <div class="column">
               <a href="https://www.easyearnest.com/">
                 <div class="img-container">
-                  <img class="image" src="~/assets/imgs/EE_Dashboard.png" alt="Easy Earnest">
+                  <img class="image" src="/imgs/EE_Dashboard.png" alt="Easy Earnest">
                   <div class="overlay" :class="{'show-overlay':showOverlay}">
-                    <img class="image" src="~/assets/imgs/EE_Form_crop.png" alt="Easy Earnest">
+                    <img class="image" src="/imgs/EE_Form_crop.png" alt="Easy Earnest">
                   </div>
                 </div>
               </a>
@@ -134,9 +134,9 @@
             <div class="column">
               <a href="#">
                 <div class="img-container">
-                  <img class="image" src="~/assets/imgs/Title_Website_Services.png" alt="Title Website">
+                  <img class="image" src="/imgs/Title_Website_Services.png" alt="Title Website">
                   <div class="overlay" :class="{'show-overlay':showOverlay}">
-                    <img class="image" src="~/assets/imgs/Title_Website.png" alt="Title Website">
+                    <img class="image" src="/imgs/Title_Website.png" alt="Title Website">
                   </div>
                 </div>
               </a>
