@@ -1,5 +1,5 @@
 <template>
-    <form id="contact" netlify name="contact" v-on:submit.prevent="onSubmit">
+    <form id="contact" netlify name="contact">
         <input type="hidden" name="form-name" value="contact">
         <div class="field is-horizontal">
             <div class="field-label">
@@ -29,7 +29,7 @@
             <div class="field-label">
             </div>
             <div class="field-body">
-                <button class="button is-primary is-outlined" type="submit" >
+                <button class="button is-primary is-outlined" type="submit" @click="onSubmit">
                     Send
                 </button>
             </div>
@@ -52,9 +52,11 @@ export default {
     methods: {
         onSubmit(){
             this.submitedContactRequest = true;
-            this.name = "";
-            this.email = "";
-            this.message = "";
+            setTimeout(() => {
+                this.name = "";
+                this.email = "";
+                this.message = "";
+            }, 500);
         }
     }
 }
