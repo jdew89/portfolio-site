@@ -1,44 +1,61 @@
 <template>
-    <form netlify name="contact">
+    <form id="contact" netlify name="contact" v-on:submit.prevent="onSubmit">
         <div class="field is-horizontal">
             <div class="field-label">
-                <label for="" class="label">Name</label>
+                <label for="name" class="label">Name</label>
             </div>
             <div class="field-body">
-                <input type="text" class="input" placeholder="Name">
+                <input id="name" name="name" type="text" class="input" placeholder="Name" v-model="name" required>
             </div>
         </div>
         <div class="field is-horizontal">
             <div class="field-label">
-                <label for="" class="label">Email</label>
+                <label for="email" class="label">Email</label>
             </div>
             <div class="field-body">
-                <input type="email" class="input" placeholder="Email">
+                <input id="email" name="email" type="email" class="input" placeholder="Email" v-model="email" required>
             </div>
         </div>
         <div class="field is-horizontal">
             <div class="field-label">
-                <label for="" class="label">Message</label>
+                <label for="message" class="label">Message</label>
             </div>
             <div class="field-body">
-                <textarea name="message" class="textarea" placeholder="Message" rows="5" />
+                <textarea id="message" name="message" class="textarea" placeholder="Message" rows="5" v-model="message" required/>
             </div>
         </div>
         <div class="field is-horizontal">
             <div class="field-label">
             </div>
             <div class="field-body">
-                <button class="button is-primary is-outlined" type="submit">
+                <button class="button is-primary is-outlined" type="submit" >
                     Send
                 </button>
             </div>
         </div>
+        <Toast :showToast="submitedContactRequest" @hideToast="submitedContactRequest=false"/>
     </form>
 </template>
 
 <script>
 export default {
-    
+    data(){
+        return{
+            submitedContactRequest: false,
+            name: "",
+            email: "",
+            message: "",
+
+        };
+    },
+    methods: {
+        onSubmit(){
+            this.submitedContactRequest = true;
+            this.name = "";
+            this.email = "";
+            this.message = "";
+        }
+    }
 }
 </script>
 
