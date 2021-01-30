@@ -1,162 +1,214 @@
 <template>
-  <div class="container">
-    <section class="hero">
-      <div class="hero-body">
-        <div class="columns">
-          <div class="column is-narrow has-background-black">
-            <h1 class="title is-1">
-              Jeff DeWitt
+  <div>
+    <div class="container">
+      <section class="hero">
+        <div class="hero-body">
+          <div class="columns">
+            <div class="column is-narrow has-background-black">
+              <h1 class="title is-1">
+                Jeff DeWitt
+              </h1>
+              <h2 class="subtitle is-4">
+                Software engineer and consultant.
+              </h2>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="">
+      <svg version="1.1" viewBox="0 0 211.67 17.198" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <defs>
+        <filter id="filter913" x="-.0051675" y="-.037481" width="1.0103" height="1.075" color-interpolation-filters="sRGB">
+        <feGaussianBlur stdDeviation="0.39094517"/>
+        </filter>
+      </defs>
+      <metadata>
+        <rdf:RDF>
+        <cc:Work rdf:about="">
+          <dc:format>image/svg+xml</dc:format>
+          <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+          <dc:title/>
+        </cc:Work>
+        </rdf:RDF>
+      </metadata>
+      <g fill="none" stroke="#dae7f1" stroke-width="1.3229">
+        <path class="svg-path" transform="matrix(1.1971 0 0 .48112 -6.1605 .76772)" d="m185.44 17.524c-21.879 2.0828-43.758 4.1656-65.069 4.4036-21.311 0.23806-42.054-1.3687-53.917-4.2845-11.863-2.9158-14.847-7.1409-13.284-10.474 1.5629-3.3327 7.6719-5.7726 15.486-6.5461 7.8142-0.77353 17.333 0.11909 22.732 2.0533 5.3986 1.9342 6.6773 4.9096 5.4697 7.7361-1.2076 2.8265-4.9015 5.5043-11.721 7.9442s-16.764 4.6417-30.83 5.7724c-14.065 1.1307-32.25 1.1902-50.436 1.2497" filter="url(#filter913)"/>
+        <path class="svg-path" transform="matrix(1.1971 0 0 .48112 -5.4817 1.9008)" d="m185.44 17.524c-21.879 2.0828-43.758 4.1656-65.069 4.4036-21.311 0.23806-42.054-1.3687-53.917-4.2845-11.863-2.9158-14.847-7.1409-13.284-10.474 1.5629-3.3327 7.6719-5.7726 15.486-6.5461 7.8142-0.77353 17.333 0.11909 22.732 2.0533 5.3986 1.9342 6.6773 4.9096 5.4697 7.7361-1.2076 2.8265-4.9015 5.5043-11.721 7.9442s-16.764 4.6417-30.83 5.7724c-14.065 1.1307-32.25 1.1902-50.436 1.2497" filter="url(#filter913)"/>
+        <path class="svg-path" transform="matrix(1.1971 0 0 .48112 -5.0292 3.1912)" d="m185.44 17.524c-21.879 2.0828-43.758 4.1656-65.069 4.4036-21.311 0.23806-42.054-1.3687-53.917-4.2845-11.863-2.9158-14.847-7.1409-13.284-10.474 1.5629-3.3327 7.6719-5.7726 15.486-6.5461 7.8142-0.77353 17.333 0.11909 22.732 2.0533 5.3986 1.9342 6.6773 4.9096 5.4697 7.7361-1.2076 2.8265-4.9015 5.5043-11.721 7.9442s-16.764 4.6417-30.83 5.7724c-14.065 1.1307-32.25 1.1902-50.436 1.2497" filter="url(#filter913)"/>
+      </g>
+      </svg>
+    </section>
+    <div class="container">
+      <section class="section">
+        <article class="has-background-black">
+          <header>
+            <h1 class="title is-3">
+              I design and build..
             </h1>
-            <h2 class="subtitle is-4">
-              Software engineer and consultant.
-            </h2>
-
+          </header>
+          <div class="content is-medium">
+            <ul class="no-style">
+              <li>
+                Landing Pages
+              </li>
+              <li>
+                Single Page Apps
+              </li>
+              <li>
+                Dashboards
+              </li>
+              <li>
+                Progressive Web Apps
+              </li>
+              <li>
+                APIs
+              </li>
+            </ul>
+            <p>
+              Need something not on this list? Let's have a conversation about it!
+            </p>
           </div>
-
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <article class="has-background-black">
-        <header>
-          <h1 class="title is-3">
-            I design and build..
-          </h1>
-        </header>
-        <div class="content is-medium">
-          <ul class="no-style">
-            <li>
-              Landing Pages
-            </li>
-            <li>
-              Single Page Apps
-            </li>
-            <li>
-              Dashboards
-            </li>
-            <li>
-              Progressive Web Apps
-            </li>
-            <li>
-              APIs
-            </li>
-          </ul>
-          <p>
-            Need something not on this list? Let's have a conversation about it!
-          </p>
-        </div>
-      </article>
-    </section>
-    <section class="section">
-      <article class="has-background-black">
-        <header class="">
-          <a class="anchor" id="about"></a>
-          <h1 class="title is-3">
-            About
-          </h1>
-        </header>
-        <div class="content is-medium mt-3">
-          <p>
-            My name is Jeff DeWitt and I have been programming for over 12 years. I first learned to program in High School and ended up graduating college with a Bachelors 
-            in Computer Science. 
-          </p>
-          <p>  
-            Since graduating, I took some odd jobs and landed in the IT Support/Administration field. I have been in this field since 2016. Throughout the years, my
-            desire to continue programming compelled me to learn new programming techniques and languages on the side. 
-          </p>
-          <p>
-            Through my time at Cutler Real Estate, I have had the opportunity to code several scripts in Python and NodeJS to help migrate data between software vendors. 
-          </p>
-          <p>
-            My latest adventure involves co-founding a new company called Easy Earnest. I was tasked with building a web platform to process electronic earnest money payments. 
-            This product helps revolutionize the last piece of Real Estate transactions that has not caught up to modern times, writing paper 
-            checks to deposit earnest money. This platform was built with NodeJS, VueJS, PostgreSQL, and AWS.
-          </p>
-          <p>
-            The top technologies that I work in are JavaScript, CSS, HTML, NodeJS, and VueJS. 
-            I am also comfortable working in any databases such as MongoDB and PostgreSQL.
-          </p>
-        </div>
-      </article>
-    </section>
-    <section class="section">
-      <article class="has-background-black">
-          <header>
-            <a class="anchor" id="portfolio"></a>
-            <h1 class="title is-3"> Portfolio </h1>
+        </article>
+      </section>
+      <section class="section">
+        <article class="has-background-black">
+          <header class="">
+            <a class="anchor" id="about"></a>
+            <h1 class="title is-3">
+              About
+            </h1>
           </header>
-        <section class="section">
-          <header>
-            <h3 class="title is-5">
-              Easy Earnest
-            </h3>
-            <h4 class="subtitle is-6">
-              Payment forms, API and Dashboard.
-            </h4>
-          </header>
-          <div class="columns mt-2">
-            <div class="column">
-              <a href="https://www.easyearnest.com/">
-                <div class="img-container">
-                  <img class="image" src="/imgs/EE_Dashboard.png" alt="Easy Earnest">
-                  <div class="overlay" :class="{'show-overlay':showOverlay}">
-                    <img class="image" src="/imgs/EE_Form_crop.png" alt="Easy Earnest">
+          <div class="content is-medium mt-3">
+            <p>
+              My name is Jeff DeWitt and I have been programming for over 12 years. I first learned to program in High School and ended up graduating college with a Bachelors 
+              in Computer Science. 
+            </p>
+            <p>  
+              Since graduating, I took some odd jobs and landed in the IT Support/Administration field. I have been in this field since 2016. Throughout the years, my
+              desire to continue programming compelled me to learn new programming techniques and languages on the side. 
+            </p>
+            <p>
+              Through my time at Cutler Real Estate, I have had the opportunity to code several scripts in Python and NodeJS to help migrate data between software vendors. 
+            </p>
+            <p>
+              My latest adventure involves co-founding a new company called Easy Earnest. I was tasked with building a web platform to process electronic earnest money payments. 
+              This product helps revolutionize the last piece of Real Estate transactions that has not caught up to modern times, writing paper 
+              checks to deposit earnest money. This platform was built with NodeJS, VueJS, PostgreSQL, and AWS.
+            </p>
+            <p>
+              The top technologies that I work in are JavaScript, CSS, HTML, NodeJS, and VueJS. 
+              I am also comfortable working in any databases such as MongoDB and PostgreSQL.
+            </p>
+          </div>
+        </article>
+      </section>
+    </div>
+    <section class="">
+      <svg version="1.1" viewBox="0 0 211.67 17.198" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <defs>
+        <filter id="filter913" x="-.0051675" y="-.037481" width="1.0103" height="1.075" color-interpolation-filters="sRGB">
+        <feGaussianBlur stdDeviation="0.39094517"/>
+        </filter>
+      </defs>
+      <metadata>
+        <rdf:RDF>
+        <cc:Work rdf:about="">
+          <dc:format>image/svg+xml</dc:format>
+          <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+          <dc:title/>
+        </cc:Work>
+        </rdf:RDF>
+      </metadata>
+      <g fill="none" stroke="#dae7f1" stroke-width="1.3229">
+        <path class="svg-path" transform="matrix(1.1971 0 0 .48112 -6.1605 .76772)" d="m185.44 17.524c-21.879 2.0828-43.758 4.1656-65.069 4.4036-21.311 0.23806-42.054-1.3687-53.917-4.2845-11.863-2.9158-14.847-7.1409-13.284-10.474 1.5629-3.3327 7.6719-5.7726 15.486-6.5461 7.8142-0.77353 17.333 0.11909 22.732 2.0533 5.3986 1.9342 6.6773 4.9096 5.4697 7.7361-1.2076 2.8265-4.9015 5.5043-11.721 7.9442s-16.764 4.6417-30.83 5.7724c-14.065 1.1307-32.25 1.1902-50.436 1.2497" filter="url(#filter913)"/>
+        <path class="svg-path" transform="matrix(1.1971 0 0 .48112 -5.4817 1.9008)" d="m185.44 17.524c-21.879 2.0828-43.758 4.1656-65.069 4.4036-21.311 0.23806-42.054-1.3687-53.917-4.2845-11.863-2.9158-14.847-7.1409-13.284-10.474 1.5629-3.3327 7.6719-5.7726 15.486-6.5461 7.8142-0.77353 17.333 0.11909 22.732 2.0533 5.3986 1.9342 6.6773 4.9096 5.4697 7.7361-1.2076 2.8265-4.9015 5.5043-11.721 7.9442s-16.764 4.6417-30.83 5.7724c-14.065 1.1307-32.25 1.1902-50.436 1.2497" filter="url(#filter913)"/>
+        <path class="svg-path" transform="matrix(1.1971 0 0 .48112 -5.0292 3.1912)" d="m185.44 17.524c-21.879 2.0828-43.758 4.1656-65.069 4.4036-21.311 0.23806-42.054-1.3687-53.917-4.2845-11.863-2.9158-14.847-7.1409-13.284-10.474 1.5629-3.3327 7.6719-5.7726 15.486-6.5461 7.8142-0.77353 17.333 0.11909 22.732 2.0533 5.3986 1.9342 6.6773 4.9096 5.4697 7.7361-1.2076 2.8265-4.9015 5.5043-11.721 7.9442s-16.764 4.6417-30.83 5.7724c-14.065 1.1307-32.25 1.1902-50.436 1.2497" filter="url(#filter913)"/>
+      </g>
+      </svg>
+    </section>
+    <div class="container">
+      <section class="section">
+        <article class="has-background-black">
+            <header>
+              <a class="anchor" id="portfolio"></a>
+              <h1 class="title is-3"> Portfolio </h1>
+            </header>
+          <section class="section">
+            <header>
+              <h3 class="title is-5">
+                Easy Earnest
+              </h3>
+              <h4 class="subtitle is-6">
+                Payment forms, API and Dashboard.
+              </h4>
+            </header>
+            <div class="columns mt-2">
+              <div class="column">
+                <a href="https://www.easyearnest.com/">
+                  <div class="img-container">
+                    <img class="image" src="/imgs/EE_Dashboard.png" alt="Easy Earnest">
+                    <div class="overlay" :class="{'show-overlay':showOverlay}">
+                      <img class="image" src="/imgs/EE_Form_crop.png" alt="Easy Earnest">
+                    </div>
                   </div>
+                </a>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    Easy Earnest is an electronic earnest money payment platform for Real Estate transactions. This product solves the headaches involved with accepting paper checks for earnest money deposits.
+                    Easy Earnest hopes to modernize the Real Estate industry by providing a platform for customers to use that is Fast, Secure and Easy! I had the pleasure of designing, building and maintaining
+                    the dashboard and earnest money deposit forms.
+                  </p>
+                  <TechIcon :noIcon="false" :fasIcon="['fab', 'node-js']" tooltipText="NodeJS" />
+                  <TechIcon :noIcon="false" :fasIcon="['fab', 'vuejs']" tooltipText="VueJS" />
+                  <TechIcon :noIcon="false" :fasIcon="['fab', 'html5']" tooltipText="HTML5" />
+                  <TechIcon :noIcon="false" :fasIcon="['fab', 'sass']" tooltipText="SASS" />
+                  <TechIcon :noIcon="false" :fasIcon="['fab', 'aws']" tooltipText="AWS" />
                 </div>
-              </a>
-            </div>
-            <div class="column">
-              <div class="content">
-                <p>
-                  Easy Earnest is an electronic earnest money payment platform for Real Estate transactions. This product solves the headaches involved with accepting paper checks for earnest money deposits.
-                  Easy Earnest hopes to modernize the Real Estate industry by providing a platform for customers to use that is Fast, Secure and Easy! I had the pleasure of designing, building and maintaining
-                  the dashboard and earnest money deposit forms.
-                </p>
-                <TechIcon :noIcon="false" :fasIcon="['fab', 'node-js']" tooltipText="NodeJS" />
-                <TechIcon :noIcon="false" :fasIcon="['fab', 'vuejs']" tooltipText="VueJS" />
-                <TechIcon :noIcon="false" :fasIcon="['fab', 'html5']" tooltipText="HTML5" />
-                <TechIcon :noIcon="false" :fasIcon="['fab', 'sass']" tooltipText="SASS" />
-                <TechIcon :noIcon="false" :fasIcon="['fab', 'aws']" tooltipText="AWS" />
               </div>
             </div>
-          </div>
-        </section>
-        <section class="section">
-          <header>
-            <h3 class="title is-5">
-              Theme for a Title Company
-            </h3>
-            <h4 class="subtitle is-6">
-              Website Theme
-            </h4>
-          </header>
-          <div class="columns mt-2">
-            <div class="column">
-              <a href="#">
-                <div class="img-container">
-                  <img class="image" src="/imgs/Title_Website_Services.png" alt="Title Website">
-                  <div class="overlay" :class="{'show-overlay':showOverlay}">
-                    <img class="image" src="/imgs/Title_Website.png" alt="Title Website">
+          </section>
+          <section class="section">
+            <header>
+              <h3 class="title is-5">
+                Theme for a Title Company
+              </h3>
+              <h4 class="subtitle is-6">
+                Website Theme
+              </h4>
+            </header>
+            <div class="columns mt-2">
+              <div class="column">
+                <a href="#">
+                  <div class="img-container">
+                    <img class="image" src="/imgs/Title_Website_Services.png" alt="Title Website">
+                    <div class="overlay" :class="{'show-overlay':showOverlay}">
+                      <img class="image" src="/imgs/Title_Website.png" alt="Title Website">
+                    </div>
                   </div>
+                </a>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    This was made as a mock up for a new site. It is currently not deployed. It was built using NodeJS, ExpressJS, PugJS, and SASS.
+                    It can be deployed at any time or converted to a theme for use in a CMS like Wordpress or Ghost. It is also built using the Bulma CSS framework.
+                  </p>
+                  <TechIcon :noIcon="false" :fasIcon="['fab', 'node-js']" tooltipText="NodeJS" />
+                  <TechIcon :noIcon="false" :fasIcon="['fab', 'html5']" tooltipText="HTML5" />
+                  <TechIcon :noIcon="false" :fasIcon="['fab', 'sass']" tooltipText="SASS" />
+                  <TechIcon :noIcon="true" :fasIcon="['fab', 'sass']" tooltipText="PUGJS" />
                 </div>
-              </a>
-            </div>
-            <div class="column">
-              <div class="content">
-                <p>
-                  This was made as a mock up for a new site. It is currently not deployed. It was built using NodeJS, ExpressJS, PugJS, and SASS.
-                  It can be deployed at any time or converted to a theme for use in a CMS like Wordpress or Ghost. It is also built using the Bulma CSS framework.
-                </p>
-                <TechIcon :noIcon="false" :fasIcon="['fab', 'node-js']" tooltipText="NodeJS" />
-                <TechIcon :noIcon="false" :fasIcon="['fab', 'html5']" tooltipText="HTML5" />
-                <TechIcon :noIcon="false" :fasIcon="['fab', 'sass']" tooltipText="SASS" />
-                <TechIcon :noIcon="true" :fasIcon="['fab', 'sass']" tooltipText="PUGJS" />
               </div>
             </div>
-          </div>
-        </section>
-      </article>
-    </section>
+          </section>
+        </article>
+      </section>
+    </div>
   </div>
 </template>
 
@@ -177,6 +229,19 @@ export default {
 
 <style lang="scss">
 
+
+.svg-path{
+  opacity: 0.2;
+  stroke-dasharray: 200;
+  stroke-dashoffset: 0;
+  animation: dash 20s linear infinite;
+}
+
+@keyframes dash {
+  to{
+    stroke-dashoffset: 2000;
+  }
+}
 
 ul.no-style{
   list-style: none;
