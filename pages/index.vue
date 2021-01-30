@@ -67,9 +67,33 @@
                 APIs
               </li>
             </ul>
-            <p>
-              Need something not on this list? Let's have a conversation about it!
-            </p>
+          </div>
+          <header>
+            <h3 class="title is-4">
+              Using..
+            </h3>
+          </header>
+          <div class="content is-medium">
+            <ul class="no-style">
+              <li>
+                NodeJS
+              </li>
+              <li>
+                VueJS
+              </li>
+              <li>
+                NuxtJS
+              </li>
+              <li>
+                SASS
+              </li>
+              <li>
+                Netlify 
+              </li>
+              <li>
+                AWS
+              </li>
+            </ul>
           </div>
         </article>
       </section>
@@ -150,7 +174,7 @@
                 <a href="https://www.easyearnest.com/">
                   <div class="img-container">
                     <img class="image" src="/imgs/EE_Dashboard.png" alt="Easy Earnest">
-                    <div class="overlay" :class="{'show-overlay':showOverlay}">
+                    <div class="overlay" :class="{'show-overlay':showPortfolioImgOverlay}">
                       <img class="image" src="/imgs/EE_Form_crop.png" alt="Easy Earnest">
                     </div>
                   </div>
@@ -186,7 +210,7 @@
                 <a href="#">
                   <div class="img-container">
                     <img class="image" src="/imgs/Title_Website_Services.png" alt="Title Website">
-                    <div class="overlay" :class="{'show-overlay':showOverlay}">
+                    <div class="overlay" :class="{'show-overlay':showPortfolioImgOverlay}">
                       <img class="image" src="/imgs/Title_Website.png" alt="Title Website">
                     </div>
                   </div>
@@ -227,12 +251,12 @@
 export default {
   data(){
     return {
-      showOverlay: false,
+      showPortfolioImgOverlay: false,
     };
   },
   mounted(){
     setInterval(()=>{
-      this.showOverlay = !this.showOverlay;
+      this.showPortfolioImgOverlay = !this.showPortfolioImgOverlay;
     },8000);
   }
 }
