@@ -16,6 +16,11 @@
                   Portfolio
               </NuxtLink>
             </div>
+            <div class="level-item has-text-centered">
+              <NuxtLink to="#contact" class="button is-link is-outlined"> 
+                  Contact Me
+              </NuxtLink>
+            </div>
             <div class="level-right">
               <div class="level-item">
                 <a href="https://github.com/jdew89" class="button is-rounded is-outlined is-link is-small" target="_blank">

@@ -30,6 +30,11 @@
                         Portfolio
                     </NuxtLink>
                 </div>
+                <div class="navbar-item">
+                    <NuxtLink to="#contact" class="button is-primary is-outlined"> 
+                        Contact Me
+                    </NuxtLink>
+                </div>
             </div>
             <div class="navbar-end">
                 <div class="navbar-item">

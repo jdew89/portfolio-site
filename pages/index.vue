@@ -208,6 +208,17 @@
           </section>
         </article>
       </section>
+      <section class="section">
+        <article class="has-background-black">
+          <header>
+            <a class="anchor" id="contact"></a>
+            <h1 class="title is-3"> Contact Me</h1>
+          </header>
+          <section class="section">
+            <ContactForm />
+          </section>
+        </article>
+      </section>
     </div>
   </div>
 </template>
