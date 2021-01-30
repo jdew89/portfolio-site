@@ -29,12 +29,11 @@
             <div class="field-label">
             </div>
             <div class="field-body">
-                <button class="button is-primary is-outlined" type="submit" @click="onSubmit">
+                <button class="button is-primary is-outlined" type="submit" >
                     Send
                 </button>
             </div>
         </div>
-        <Toast :showToast="submitedContactRequest" @hideToast="submitedContactRequest=false"/>
     </form>
 </template>
 
@@ -42,7 +41,6 @@
 export default {
     data(){
         return{
-            submitedContactRequest: false,
             name: "",
             email: "",
             message: "",
@@ -50,14 +48,6 @@ export default {
         };
     },
     methods: {
-        onSubmit(){
-            this.submitedContactRequest = true;
-            setTimeout(() => {
-                this.name = "";
-                this.email = "";
-                this.message = "";
-            }, 500);
-        }
     }
 }
 </script>
