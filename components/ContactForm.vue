@@ -1,5 +1,5 @@
 <template>
-    <form id="contact" netlify name="contact" v-on:submit.prevent="onSubmit">
+    <form id="contact" netlify name="contact">
         <div class="field is-horizontal">
             <div class="field-label">
                 <label for="name" class="label">Name</label>
@@ -28,7 +28,7 @@
             <div class="field-label">
             </div>
             <div class="field-body">
-                <button class="button is-primary is-outlined" type="submit" >
+                <button class="button is-primary is-outlined" type="submit" @click="onSubmit">
                     Send
                 </button>
             </div>
