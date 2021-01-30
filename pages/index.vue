@@ -2,6 +2,7 @@
   <div>
     <div class="container">
       <section class="hero">
+        <a class="anchor" id=""></a>
         <div class="hero-body">
           <div class="columns">
             <div class="column is-narrow has-background-black">
