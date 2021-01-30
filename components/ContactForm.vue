@@ -1,5 +1,6 @@
 <template>
     <form id="contact" netlify name="contact">
+        <input type="hidden" name="form-name" value="contact">
         <div class="field is-horizontal">
             <div class="field-label">
                 <label for="name" class="label">Name</label>
