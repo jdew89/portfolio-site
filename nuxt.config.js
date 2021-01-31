@@ -65,6 +65,9 @@ export default {
       name: "Jeff DeWitt",
       description: "Jeff DeWitt's portfolio website.",
 
+    },
+    icon:{
+      source: '~/static/imgs/snowflake-icon.png'
     }
   },
 
