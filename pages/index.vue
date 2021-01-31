@@ -202,6 +202,10 @@
 
 <script>
 export default {
+  transition: {
+        name: "home",
+        mode: 'out-in'
+    },
   data(){
     return {
       showPortfolioImgOverlay: false,
