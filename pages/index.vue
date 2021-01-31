@@ -158,7 +158,7 @@
             </header>
             <div class="columns mt-2">
               <div class="column">
-                <a href="#">
+                <a>
                   <div class="img-container">
                     <img class="image" src="/imgs/Title_Website_Services.png" alt="Title Website">
                     <div class="overlay" :class="{'show-overlay':showPortfolioImgOverlay}">
