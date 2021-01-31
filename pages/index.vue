@@ -17,7 +17,7 @@
         </div>
       </section>
     </div>
-    <WindSwirl/>
+    <WindSwirl v-if="get_show_animations" />
     <div class="container">
       <section class="section">
         <article class="has-background-black">
@@ -103,7 +103,7 @@
         </article>
       </section>
     </div>
-    <WindSwirl/>
+    <WindSwirl v-if="get_show_animations"/>
     <div class="container">
       <section class="section">
         <article class="has-background-black">
@@ -158,7 +158,7 @@
             </header>
             <div class="columns mt-2">
               <div class="column">
-                <a href="#">
+                <a>
                   <div class="img-container">
                     <img class="image" src="/imgs/Title_Website_Services.png" alt="Title Website">
                     <div class="overlay" :class="{'show-overlay':showPortfolioImgOverlay}">
@@ -195,7 +195,7 @@
         </article>
       </section>
     </div>
-    <WindSwirl/>
+    <WindSwirl v-if="get_show_animations"/>
     
   </div>
 </template>
@@ -208,11 +208,16 @@ export default {
       
     };
   },
+  computed: {
+    get_show_animations(){
+      return this.$store.state.showAnimations;
+    }
+  },
   mounted(){
     setInterval(()=>{
       this.showPortfolioImgOverlay = !this.showPortfolioImgOverlay;
     },8000);
-  }
+  },
 }
 </script>
 

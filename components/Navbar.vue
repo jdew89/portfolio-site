@@ -58,7 +58,7 @@
 <script>
 export default {
     model: {
-        event: 'snowflake-toggle'
+        
     },
     data(){
         return {
@@ -83,8 +83,8 @@ export default {
             }
         },
         toggleSnow(){
-            this.$emit('snowflake-toggle');
             this.rotateSnowflake = !this.rotateSnowflake;
+            this.$store.commit('toggleAnimations');
         }
     }
     

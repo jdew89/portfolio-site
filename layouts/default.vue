@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
-    <Snowflakes v-if="snowflakesOn"/>
-    <Navbar @snowflake-toggle="snowflakesOn = !snowflakesOn"/>
+    <Snowflakes v-if="get_show_animations"/>
+    <Navbar />
     <div class="push-footer-bottom">
       <Nuxt />
     </div>
@@ -13,7 +13,12 @@
 export default {
   data(){
     return{
-      snowflakesOn: true,
+      
+    }
+  },
+  computed: {
+    get_show_animations(){
+      return this.$store.state.showAnimations;
     }
   }
 }
