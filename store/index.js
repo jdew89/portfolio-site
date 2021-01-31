@@ -4,7 +4,6 @@ export const state = () => ({
 
 export const mutations = {
     toggleAnimations(state){
-        console.log("COMMIT");
         state.showAnimations = !state.showAnimations;
     }
 };
